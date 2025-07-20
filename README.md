@@ -1,5 +1,7 @@
-# ha
+### ha
+
 repo for otus project
+
 [all_stack]
 
 192.168.1.160 : zabbix-01 node-01 : 
@@ -19,9 +21,14 @@ repo for otus project
 
 backup: everyday 3:00 AM   # replica:./zbxBd
 
-# gunzip lastbackup
+### gunzip lastbackup
 
 when BD crash:
 
-active zabbix server - 
+active zabbix server - server.sh
 
+### Меняет ip zabbix-server
+
+replica DB - replica.sh
+
+### делает реплику Mysql - main DB
