@@ -29,6 +29,14 @@ active zabbix server - server.sh
 
 ### Меняет ip zabbix-server
 
-replica DB - replica.sh
+1. #: chmod +x ./server.sh
+2. #: server.sh
 
 ### делает реплику Mysql - main DB
+
+replica DB - replica.sh
+
+1. #: chmod +x ./replica.sh
+2. #: ./replica.sh
+
+
